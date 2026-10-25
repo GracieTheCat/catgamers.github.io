@@ -1,0 +1,71 @@
+@font-face {
+  font-family: GeistPixel; /* set name */
+  src: url(GeistPixel.ttf); /* url of the font */
+}
+body {
+
+	background-image: url("stars-bg.jpg");
+	background-size: 100%;
+
+}
+p {
+	color: black;
+	font-family: GeistPixel;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+img {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h1 {
+	background-color: #4500ff;
+	color: white;
+	font-family: GeistPixel;
+}
+
+a {
+	font-size: 25px;
+	color: white;
+	font-family: GeistPixel;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 25px;
+	color: #aaa;
+	font-family: GeistPixel;
+	text-decoration: none;
+}
+
+.title {
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.main {
+	width: 1024px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fff;
+	text-align: center;
+	 padding-bottom: 10px;
+}
+
+.discord {
+	width: 275px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #7289da;
+	text-align: center;
+	padding: 25px;
+	border-radius: 25px;
+	font-weight: bold;
+}
