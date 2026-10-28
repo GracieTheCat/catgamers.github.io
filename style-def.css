@@ -58,14 +58,35 @@ a:hover {
 }
 
 .discord {
+	display: inline-block;
 	width: 275px;
 	margin-top: 25px;
 	margin-bottom: 25px;
-	margin-right: auto;
+	margin-right: 5px;
 	margin-left: auto;
 	background-color: #7289da;
 	text-align: center;
 	padding: 25px;
 	border-radius: 25px;
 	font-weight: bold;
+}
+
+.youtube {
+	display: inline-block;
+	width: 275px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: auto;
+	margin-left: 5px;
+	background-color: #ff0000;
+	text-align: center;
+	padding: 25px;
+	border-radius: 25px;
+	font-weight: bold;
+}
+
+.socials {
+	width: 660px;
+	margin-right: auto;
+	margin-left: auto;
 }
